@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     private GameObject[] ObjToPush;
 
     private bool ReadyToMove;
+
+    public int speed = 10;
+
     // Start is called before the first frame update
     void Start()
     {
